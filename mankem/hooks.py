@@ -15,7 +15,7 @@ fixtures = ["Custom Field", "Property Setter","Print Format"]
 
 doc_events = {
 	"Stock Entry": {
-		"autoname": "mankem.custom_method.set_autoname"
+		"autoname": "mankem.custom_methods.set_autoname"
 	},
 	"Customer":{
 		"before_insert": "mankem.custom_method.custom_method.create_customer_code"
