@@ -17,6 +17,30 @@ doc_events = {
 	"Stock Entry": {
 		"autoname": "mankem.custom_methods.set_autoname"
 	},
+	"Quotation": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Delivery Note": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Sales Invoice": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Journal Entry": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Purchase Invoice": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Payment Entry": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Purchase Order": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
+	"Sales Order": {
+		"autoname": "mankem.custom_methods.set_autoname"
+	},
 	"Customer":{
 		"before_insert": "mankem.custom_method.custom_method.create_customer_code"
 	},
