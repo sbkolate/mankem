@@ -24,7 +24,7 @@ def set_autoname(doc, method):
 
 		if doc.doctype=="Delivery Note":
 			yy = getdate(doc.transaction_date).strftime("%y")
-			mm = getdate(doc.transaction_date).strftime("%m")
+			mm = getdate(doc.posting_date).strftime("%m")
 			series = company_abbr+"DN"+yy+ mm + ".###";
 			doc.name =make_autoname(series)
 
